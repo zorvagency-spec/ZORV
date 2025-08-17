@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZORV — Blogs</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="ZORV blog — insights and updates.">
+</head>
+<body>
+<nav class="nav">
+  <div class="inner container">
+    <div class="brand">ZORV</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blogs.html">Blogs</a></li>
+      <li><a href="index.html#about">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="section alt">
+  <div class="container">
+    <h1 class="h2">Blog</h1>
+    <p class="p-lead">Articles coming soon. The layout is ready—just add posts when you’re ready.</p>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container grid">
+    <div class="card">
+      <h3>Placeholder post</h3>
+      <p>Replace this with your first article. Short excerpt goes here to tease the content.</p>
+      <a class="btn ghost" href="#">Read</a>
+    </div>
+    <div class="card">
+      <h3>Another placeholder</h3>
+      <p>Use consistent titles, dates, and excerpts to keep things clean and scannable.</p>
+      <a class="btn ghost" href="#">Read</a>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row" style="justify-content:space-between;">
+      <div>© <span id="year"></span> ZORV.</div>
+      <div class="row" style="gap:12px;">
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hello@zorv.example">Email</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
